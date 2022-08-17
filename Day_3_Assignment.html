@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Write a program to print a array of five names in reverses order.
+        let names = ["Abhi","Rahul","Sunil","Radhika","Divya"];
+        let l = names.length;
+        for(let i = l-1 ; i>=0; i--)
+         console.log(names[i]+" ");
+
+    /*Create a array of country objects having name capital and population as properties.
+    Print the countries whose population is less than 2000 */
+   
+    let Country = [
+        {
+            name : "India",
+            capital : "New Delhi",
+            Population : 3000
+        },
+        {
+            name : "Nepal",
+            capital : "Kathmandu",
+            Population : 1000
+        },
+        {
+            name : "Bangladesh",
+            capital : "Dhaka",
+            Population : 2500
+        },
+        {
+            name : "New Zealand",
+            capital : "Wellington",
+            Population : 1500
+        }
+    ]
+    for(let i = 0; i<= Country.length; i++){
+        if(Country[i].Population<2000)
+            console.log(Country[i].name); 
+    }
+
+         
+    </script>
+
+    
+    
+</body>
+</html>
